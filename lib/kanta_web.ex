@@ -110,6 +110,8 @@ defmodule KantaWeb do
 
       import Kanta.Utils.ModuleUtils
 
+      use PhoenixHTMLHelpers
+
       alias KantaWeb.Router.Helpers, as: Routes
       unquote(verified_routes())
     end
